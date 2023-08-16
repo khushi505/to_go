@@ -1,0 +1,130 @@
+@import url(css/navigation.css);
+@import url(css/homepage.css);
+@import url(css/second_page.css);
+
+/* Styling the scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: rgb(0, 0, 0);
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color:  rgb(52, 73, 173);
+    width: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+  }
+
+
+*{
+    margin: 0;
+    padding: 0;   
+}
+
+.homepage{
+  background-image: url(assets/trek.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.third_page{
+  background-image: url(assets/travel.png);
+  width: 100%;
+  height:100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.explore{
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  padding-top: 40px;
+  padding-left: 80px;
+}
+
+.line_3{
+  width: 150px;
+  height: 4px;
+  background: rgb(65, 126, 232);
+  border-radius: 5px;
+  margin-left: 210px;
+  margin-top: 30px;
+}
+
+.world{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 145px;
+  margin-top: 50px;
+}
+
+.btn_2{
+  color: white;
+  background-color: rgb(65, 126, 232);
+  padding: 0%;
+  width: 110px;
+  height: 27px;
+  margin-top: 70px;
+  border-radius: 12px; 
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-left: 210px;
+}
+
+.item{
+  background-color: rgba(33, 60, 170, 0.604);
+  width: 80%;
+  height: 49vh;
+  margin: auto;
+  margin-top: 50px;
+  border-radius: 30px;
+}
+
+.box-section{
+  padding-bottom: 40px;
+}
+
+.line_4{
+  width: 150px;
+  height: 4px;
+  background:white;
+  border-radius: 5px;
+  margin-left: 50px;
+  position: relative;
+  top: 60px;
+}
+
+.plan{
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.line_5{
+  width: 150px;
+  height: 4px;
+  background:white;
+  border-radius: 5px;
+  margin-left: 50px;
+  position: relative;
+  top: 37px;
+}
+
+.item_img img{
+  width: 410px;
+  margin-top: 53px;
+  border-radius: 25px;
+  margin-right: 40px;
+  height: 240px;
+}
+
+.item{
+  display: flex;
+  justify-content: space-between;
+}
