@@ -1,6 +1,88 @@
 .footer .foot{
   background-color: rgba(25, 21, 48, 0.274);
   width: 100%;
-  height: 500px;
+  height: 370px;
 }
 
+.packages{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  padding-top: 50px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.list{
+  display: flex;
+  justify-content: space-around;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+}
+
+.office{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.corporate{
+  font-weight: bold;
+}
+
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links{
+  margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-left: 35px;
+}
+
+.icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.icon i{
+  font-size: 30px;
+  padding: 10px;
+}
+
+.made{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.social{
+  margin-right: 20px;
+}
+
+.heart{
+  width:30px;
+  position: relative;
+  top: 10px;
+}
+
+.design{
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Poppins', sans-serif;
+  background-color: rgba(30, 26, 49, 0.481);
+  padding: 5px;
+}
+
+.khushi{
+  margin-left: 20px;
+}
+
+.copyright{
+  margin-right: 20px;
+}
