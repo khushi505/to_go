@@ -4,7 +4,7 @@
 @import url(css/third_page.css);
 @import url(css/carousel.css);
 @import url(css/footer.css);
-@import url(css/media_query.css);
+/* @import url(css/media_query.css); */
 
 /* Styling the scrollbar */
 ::-webkit-scrollbar {
@@ -38,15 +38,9 @@
 .third_page{
   background-image: url(assets/travel.png);
   width: 100%;
-  height:100vh;
+  height:fit-content;
+  padding: 5% 0%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-/* @media screen and (max-width: 800px){
-  .homepage{
-   width: 1200px;
-  }
-} */
-
