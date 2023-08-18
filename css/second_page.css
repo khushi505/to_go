@@ -20,13 +20,14 @@
 
 .events{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .event_1 img{
     width: 390px;
     height: 290px;
-    margin-left: 70px;
     border-radius: 5px;
     /* border: 4px solid;
     border-radius: 4px;
@@ -45,7 +46,7 @@
 .event_3 img{
     width: 380px;
     height: 290px;
-    margin-right: 70px;
+    /* margin-right: 70px; */
     border-radius: 5px;
     /* border: 4px solid;
     border-radius: 4px;

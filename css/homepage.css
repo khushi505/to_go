@@ -33,26 +33,3 @@
     margin-top: 18px;
     border-radius: 12px; 
 }
-
-/* @media only screen and(max-width:850px){
-    .navigation{
-        padding: 0px;
-    }
-
-    .nav_left{
-        position: absolute;
-        top: 30px;
-        left: 30px;
-    }
-
-    .nav_right{
-        flex-direction: column;
-        width: 100%;
-        height: 100vh;
-        justify-content: center;
-    }
-
-    .nav_right{
-        margin: 30px;
-    }
-} */
