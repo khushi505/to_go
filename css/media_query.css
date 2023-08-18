@@ -1,0 +1,116 @@
+@media(max-width:700px)
+{
+    .homepage{
+        width:100%;
+    }
+
+    .head_content{
+        height: inherit;
+    }
+    
+    .explore{
+        margin: 0;
+        padding: 7%;
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    .line_3{
+        /* display: none; */
+        position: relative;
+        margin-top:-20px;
+        left:16%;
+        margin-left: 0px;
+    }
+    
+    .world{
+        margin-left: 10%;  
+    }
+    
+    .btn_2{
+        position: relative;
+        right: 10%;
+    }
+    
+    /* .second_page{
+        display: none;
+    } */
+    
+    .list .about_us {
+        padding: 20px;
+    }
+    
+    .list .team{
+        padding: 20px;
+    }
+    
+    .list .blog{
+        padding: 20px;
+    }
+    
+    .list .terms{
+        padding: 20px;
+    }
+    
+    .list .privacy{
+        padding: 20px;
+    }
+    
+    .list .join{
+        padding: 20px;
+    }
+    
+    .list .faq{
+        padding: 20px;
+    }
+    
+    .list .contact_us{
+        padding: 20px;
+    }
+    
+    .office{
+        margin:20px;
+    }
+    /* @media screen and (max-width: 800px){
+      .homepage{
+       width: 1200px;
+      }
+    } */
+    
+    .plan{
+        font-size: 12px;
+    }
+    
+    .item_img{
+        width:200px;
+    }
+    
+    .item_details{
+        padding-top: 35px;
+    }
+
+    .item{
+        padding-bottom:30px ;
+    }
+
+    .events{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .event_1{
+        position: relative;
+        left: 80px;
+    }
+
+    .event_2{
+        position: relative;
+        left: 140px;
+    }
+
+    .event_3{
+        position: relative;
+        left: 150px;
+    }
+}
+
