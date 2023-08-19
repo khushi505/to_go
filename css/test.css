@@ -1,0 +1,44 @@
+.box-section {
+  padding-bottom: 80px;
+}
+.item_details {
+  flex-direction: column;
+}
+.line_4{
+    margin-top: 5%;
+}
+.line_4,
+.line_5 {
+  background-color: white;
+  height: 2%;
+  width: 80%;
+  margin-left: 5%;
+  border-radius: 100px;
+}
+.item_details p {
+  margin: 5px;
+}
+.item {
+    font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 3%;
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin-left: 7%;
+  border-radius: 20px;
+}
+
+.item_img img {
+  /* height: 90px; */
+  aspect-ratio: 16/9;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.item_img {
+  height: fit-content;
+  width: 50%;
+}
